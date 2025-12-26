@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-image: url("/images/myntra-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5vh 3vw;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 6vh;
+    box-shadow: black 1em 0.4em 1em;
+    gap: 2vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    margin-left: 2vw;
+    /*padding: 0;*/
+    gap: 2vw;
+}
+.nav-links a{
+    text-decoration: none;
+    color: hsl(230, 22%, 20%);
+    font-weight: bold;
+}
+.logo{
+}
+.logo img{
+    width: 6vw;
+    height: 4vh;
+    border-radius: 20%;
+}
+.nav-links{
+
+}
+.nav-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.nav-search button{
+    background: white;
+    border: 0.01em solid hsl(230, 22%, 20%);
+    border-right: none;
+    padding: 0;
+    margin: 0;
+    width: 2vw;
+    height: 2vh;
+    display: flex;
+}
+.nav-search button img{
+    /*background-image: url("/hack/images/search-icon.png");*/
+    /*border-right: 0;*/
+
+    padding: 0;
+    background: white;
+}
+.nav-search input{
+    height: 1.69vh;
+    width: 20vw;
+    border: 0.01em solid hsl(230, 22%, 20%);
+    border-left: none;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.icons img{
+    width: 100%;
+    height: 3vh;
+}
+/*#profile-icon{*/
+/*    width: 100%;*/
+/*    height: 3vh;*/
+/*}*/
+
